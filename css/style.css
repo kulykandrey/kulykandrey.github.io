@@ -262,7 +262,10 @@
   background: linear-gradient(to right, #dce69d 0% 50%, #2b2b2b 50% 100%);
 }
 .software__software-level_mariadb {
-  background: linear-gradient(to right, #dce69d 0% 50%, #2b2b2b 50% 100%);
+  background: linear-gradient(to right, #dce69d 0% 40%, #2b2b2b 40% 100%);
+}
+.software__software-level_sourcetree {
+  background: linear-gradient(to right, #dce69d 0% 60%, #2b2b2b 60% 100%);
 }
 
 .tech-skills {
@@ -305,7 +308,7 @@
   transform: rotate(45deg);
 }
 .tech-skills__diagram_unity::after {
-  transform: rotate(90deg);
+  transform: rotate(60deg);
 }
 .tech-skills__diagram_sharp::after {
   transform: rotate(70deg);
