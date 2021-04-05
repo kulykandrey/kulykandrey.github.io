@@ -307,14 +307,22 @@
   border-radius: 50%;
   transform: rotate(45deg);
 }
+
 .tech-skills__diagram_unity::after {
-  transform: rotate(60deg);
+  transform: rotate(170deg);
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
+ 
 }
 .tech-skills__diagram_sharp::after {
-  transform: rotate(70deg);
+  transform: rotate(170deg);
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
 }
 .tech-skills__diagram_plus::after {
-  transform: rotate(45deg);
+  transform: rotate(140deg);
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
 }
 .tech-skills__diagram_git::after {
   transform: rotate(60deg);
